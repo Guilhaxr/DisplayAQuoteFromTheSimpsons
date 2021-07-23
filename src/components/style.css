@@ -3,15 +3,36 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+    border-style: solid;
+    border-radius: 30px;
+    padding-top: 0px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    box-shadow: 30px 20px 80px 25px #0ff;
+    border-color: deepskyblue;
 }
+    
+
+
 
 .button{
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 
 }
 
 body {
-    background-color: antiquewhite;
+    background: rgb(144,150,166);
+background: linear-gradient(90deg, rgba(144,150,166,0.9262079831932774) 62%, rgba(254,251,252,1) 100%);
+}
+
+.SimpsonsImage{
+    height: 250px;
+    width: 200px;
+    padding-top: 20px;
 }

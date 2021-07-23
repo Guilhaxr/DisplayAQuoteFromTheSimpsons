@@ -5,7 +5,7 @@ const QuoteCard = ({TheSimpsons}) => {
 
     return(
         <div className="box">
-            <img src={TheSimpsons.image} alt={TheSimpsons.character} />
+            <img  className ="SimpsonsImage"src={TheSimpsons.image} alt={TheSimpsons.character} />
 
             <ul>
                 <li>Character: {TheSimpsons.character} </li>
